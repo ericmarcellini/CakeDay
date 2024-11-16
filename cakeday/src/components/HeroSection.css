@@ -1,0 +1,40 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .hero-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .inquire-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .inquire-button:hover {
+    background-color: #333;
+  }
+  
