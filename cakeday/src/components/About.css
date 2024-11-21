@@ -43,16 +43,16 @@
       padding: 20px;
     }
   
-    .about-us-content {
+    .about-content {
       padding-right: 0;
       margin-bottom: 20px;
     }
   
-    .about-us-content h2 {
+    .about-content h2 {
       font-size: 2rem;
     }
   
-    .about-us-content p {
+    .about-content p {
       font-size: 1rem;
     }
   }
