@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1 className="logo">sugarbay -PLACEHOLDER</h1>
+      <h1 className="logo">sugarbayPH</h1>
       <nav className="nav">
         <ul>
           <li><a href="#about">About</a></li>
