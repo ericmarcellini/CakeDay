@@ -11,8 +11,8 @@
 
 /* Logo */
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
+  width: 100px;
+  height: 100px;
 }
 
 /* Navigation links */

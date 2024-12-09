@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import logo from './images/logo.jpg';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Header = () => {
   
   return (
     <header className="header">
-      <h1 className="logo">sugarbayPH</h1>
+      <img className='logo' src={logo} alt="Logo" />
       <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="#about">About</a></li>
