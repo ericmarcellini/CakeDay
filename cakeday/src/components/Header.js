@@ -10,22 +10,25 @@ const Header = () => {
   };
   
   return (
-    <header className="header">
+    <React.Fragment>
       <img className='logo' src={logo} alt="Logo" />
-      <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#inquire">Inquire</a></li>
-        </ul>
-      </nav>
-      <button className="menu-toggle" onClick={toggleMenu}>
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </button>
-    </header>
+      <header className="header">
+        
+        <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#inquire">Inquire</a></li>
+          </ul>
+        </nav>
+        <button className="menu-toggle" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
+      </header>
+    </React.Fragment>
   );
 };
 
