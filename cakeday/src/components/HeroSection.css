@@ -4,10 +4,11 @@
   background-image: url('../components/images/Mockup.jpg');
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   height: 80vh;
   padding: 40px;
+  background-color: white;
 }
 
 .hero-section::before {
@@ -22,12 +23,16 @@
 }
 
 .hero-content {
-  position: relative;
+  padding: 5rem;
+  /* position: relative; */
   z-index: 2;
   max-width: 600px;
-  text-align: left;
+  text-align: right;
   color: #fff; /* Set text color to white for better contrast */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 10rem;
+  border-radius: 3%;
 }
 
   
