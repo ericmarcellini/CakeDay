@@ -1,13 +1,19 @@
 .gallery {
     display: grid;
-    background-color: black;
+    background-color: white;
     grid-template-columns: repeat(3, 500px);
     grid-template-rows: repeat(3, 500px);
-    gap: 10px;
+    gap: 25px;
     justify-content: center;
     padding: 20px;
   }
   
+  .gallery-title {
+    background-color: white;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
   .gallery-item {
     overflow: hidden;
   }

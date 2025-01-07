@@ -17,14 +17,15 @@ import img12 from './images/img12.jpg';
 
 const images = [
   img1, img2, img3, img4, img5, img6,
-  img7, img8, img9, img10, img11, img12
+  img7, img8, img9
 ];
 
 const ImageGallery = () => {
   return (
-    <div>
-    <h1>Gallery</h1>
+    <div className='gallery-title'>
+      <h1>Gallery</h1>
     <div className="gallery">
+    
       {images.map((image, index) => (
         <div className="gallery-item" key={index}>
           <img src={image} alt={`Gallery item ${index + 1}`} />
