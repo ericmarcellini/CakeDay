@@ -13,28 +13,33 @@ const Header = () => {
     <React.Fragment>
       {/* <img className='logo' src={logo} alt="Logo" /> */}
       <header className="header">
-        
       <nav className="navbar">
-      <ul className="nav-left">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-      <div className="nav-logo">
-        <a href="#home">
+        {/* Left navigation links */}
+        <ul className="nav-left">
+          <li>
+            <a href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#about">ABOUT</a>
+          </li>
+        </ul>
+
+        {/* Centered logo */}
+        <div className="nav-logo">
           <img src={logo} alt="Logo" />
-        </a>
-      </div>
-      <ul className="nav-right">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-        {/* <button className="menu-toggle" onClick={toggleMenu}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </button> */}
-      </header>
+        </div>
+
+        {/* Right navigation links */}
+        <ul className="nav-right">
+          <li>
+            <a href="#services">SERVICES</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     </React.Fragment>
   );
 };

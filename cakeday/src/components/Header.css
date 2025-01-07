@@ -10,17 +10,17 @@
 /* Header container */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: grey;
   color: var(--clr-light);
+  background-color: var(--clr-dark);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 10;
   padding: 10px 20px; /* Adjusted for better proportions */
-  height: 80px; /* Reduced navbar height */
+  height: 70px;
 }
 
 /* Logo */
@@ -28,43 +28,46 @@
   position: relative;
   display: flex;
   align-items: center;
+  margin: 0 10px; /* Spacing between the logo and nav links */
 }
 
 .nav-logo img {
-  height: 60px; /* Increased logo size */
+  height: 70px; /* Logo size */
   width: auto;
   transition: transform 0.3s ease;
 }
 
 .nav-logo img:hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
 }
 
-/* Navigation Links */
+/* Navigation Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Take up full width of the navbar */
+}
+
 .nav-left, .nav-right {
   display: flex;
-  align-items: center;
   list-style: none;
   padding: 0;
   margin: 0;
-  flex: 1; /* Allow links to spread equally on both sides */
-  justify-content: flex-start; /* Align to start of the space */
-}
-
-.nav-right {
-  justify-content: flex-end; /* Align to the end of the space */
+  gap: 10px;
 }
 
 .nav-left li, .nav-right li {
-  margin: 0 15px; /* Adjust spacing between links */
+  margin: 0 15px; /* Spacing between links */
 }
 
 .nav-left a, .nav-right a {
   text-decoration: none;
-  color: var(--clr-dark);
+  color: var(--clr-light);
   font-size: 16px;
   font-weight: 500;
   transition: color 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .nav-left a:hover, .nav-right a:hover {
@@ -78,7 +81,7 @@
   }
 
   .nav-logo img {
-    height: 50px;
+    height: 40px;
   }
 
   .header {
