@@ -1,5 +1,6 @@
 .gallery {
     display: grid;
+    background-color: black;
     grid-template-columns: repeat(3, 500px);
     grid-template-rows: repeat(3, 500px);
     gap: 10px;

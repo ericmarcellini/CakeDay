@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 40px;
-    background-color: black;
+    background-color: white;
   }
   
   .about-content {
@@ -15,14 +15,16 @@
   .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: white;
+    color: gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
   
   .about-content p {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 15px;
-    color: white;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
   
   .about-image {
