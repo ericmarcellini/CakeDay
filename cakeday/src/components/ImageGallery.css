@@ -5,7 +5,7 @@
     grid-template-rows: repeat(3, 500px);
     gap: 25px;
     justify-content: center;
-    padding: 20px;
+    padding: 5px;
   }
   
   .gallery-title {

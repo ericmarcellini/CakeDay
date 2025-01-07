@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Base font size */
+html {
+  font-size: 16px; /* Default for desktop */
+}
+
+/* Adjust font size for smaller devices */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; /* Slightly smaller for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px; /* Smaller for handheld devices */
+  }
+}

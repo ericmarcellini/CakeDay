@@ -3,11 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    /* padding: 40px; */
     background-color: white;
-    margin-top: 10rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    /* margin-top: 1rem; */
   }
   
   .about-content {
