@@ -24,7 +24,7 @@ const Header = () => {
           </li>
         </ul>
 
-        {/* Centered logo */}
+        {/* logo */}
         <div className="nav-logo">
           <img src={logo} alt="Logo" />
         </div>
