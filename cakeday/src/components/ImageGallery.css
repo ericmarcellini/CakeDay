@@ -34,13 +34,14 @@
     .gallery {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(6, 1fr);
+      margin-bottom: 7rem;
     }
   }
   
   @media (max-width: 480px) {
     .gallery {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(12, 1fr);
+      grid-template-rows: repeat(9, 1fr);
     }
   }
   
