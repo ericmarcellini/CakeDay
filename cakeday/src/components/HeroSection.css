@@ -1,7 +1,7 @@
 .hero-section {
   position: relative;
   /* background-image: url('../components/images/logo - Copy.jpg'); */
-  background-image: url('../components/images/Mockup.jpg');
+  background-image: url('../components/images/heroBackground.png');
   background-size: cover;
   display: flex;
   justify-content: right;
